@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N8 Kids Academy - Meta Reklam Performans Raporu</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc;
+        }
+        .brand-primary {
+            background-color: #e69e38; /* Logodaki ana turuncu */
+        }
+        .brand-text-primary {
+            color: #e69e38;
+        }
+        .brand-blue { background-color: #5cb0e4; }
+        .brand-text-blue { color: #5cb0e4; }
+        .brand-green { background-color: #8ec545; }
+        .brand-text-green { color: #8ec545; }
+        .brand-pink { background-color: #d85687; }
+        .brand-text-pink { color: #d85687; }
+        .brand-purple { background-color: #a365aa; }
+        .brand-text-purple { color: #a365aa; }
+    </style>
+</head>
+<body class="text-slate-800 antialiased pb-12 flex flex-col min-h-screen">
+
+    <!-- Header Banner -->
+    <div class="brand-primary text-white py-8 shadow-md relative">
+        <div class="max-w-6xl mx-auto px-4 relative">
+            
+            <!-- Üst Bar Salus Medya Etiketi -->
+            <!-- Kapsayıcı div: 'items-center' dikeyde, 'justify-center' yatayda ortalar -->
+<div class="md:absolute md:top-0 md:right-0 flex items-center justify-center gap-3 text-xs bg-white/20 border border-white/30 px-4 py-2 rounded-full mb-6 md:mb-0 w-max mx-auto md:mx-0 backdrop-blur-sm">
+    
+    <span class="opacity-90 leading-none">Hazırlayan:</span>
+
+    <!-- İç kapsayıcıyı daha sıkı kontrol ediyoruz -->
+    <div class="flex items-center gap-2 h-7"> 
+        <img src="images/salus-logo.png" 
+             alt="Salus Medya Logo" 
+             class="h-full w-auto object-contain block" 
+             onerror="this.style.display='none'; document.getElementById('salus-text-top').classList.remove('hidden');">
+        
+        <strong id="salus-text-top" class="tracking-wider font-bold uppercase leading-[0] flex items-center">
+            SALUS MEDYA
+        </strong>
+    </div>
+</div>
+            <div class="text-center flex flex-col items-center justify-center">
+    <!-- Logo -->
+   <!-- Kırpılma oluyorsa bu alternatifi kullanın: -->
+<div class="text-center flex flex-col items-center justify-center">
+    <!-- Logo -->
+    <img src="images/no8-kids.jpeg" 
+         alt="N8 Kids Academy Logo" 
+         class="w-24 h-24 mb-4 rounded-full object-cover shadow-lg" 
+         onerror="this.onerror=null; this.src='https://ui-avatars.com/api/?name=N8+Kids&background=fff&color=e69e38&rounded=true&size=150&bold=true';">
+    
+    <h1 class="text-2xl md:text-3xl font-bold tracking-wide uppercase">
+        N8 KİDS ACADEMY 7 NİSAN - 2 MAYIS 2026 REKLAM RAPORU
+    </h1>
+    <p class="mt-2 text-orange-100 font-medium tracking-wider">Meta Reklam Performans Özeti</p>
+</div>
+        </div>
+    </div>
+
+    <div class="max-w-6xl mx-auto px-4 mt-8 space-y-8 flex-grow w-full">
+
+        <!-- Genel Performans Özeti -->
+        <section class="bg-white rounded-2xl p-6 shadow-sm border border-slate-100 flex flex-col md:flex-row gap-6 items-center">
+            <div class="bg-orange-50 p-4 rounded-full flex-shrink-0">
+                <i data-lucide="rocket" class="w-8 h-8 brand-text-primary"></i>
+            </div>
+            <div>
+                <h2 class="text-xl font-bold brand-text-primary mb-2">Genel Performans Özeti</h2>
+                <p class="text-slate-600 leading-relaxed">
+                    Bu kampanya, hedef kitleye ulaşma ve dönüşüm üretme açısından verimli ve dengeli bir performans sergilemiştir. Özellikle bütçe kullanımıyla elde edilen form sayısı, kampanyanın doğru stratejiyle yönetildiğini göstermektedir.
+                </p>
+            </div>
+        </section>
+
+        <!-- Temel Veriler (KPI Cards) -->
+        <section>
+            <div class="flex items-center gap-2 mb-4">
+                <i data-lucide="bar-chart-3" class="w-5 h-5 brand-text-primary"></i>
+                <h2 class="text-xl font-bold brand-text-primary">Temel Veriler</h2>
+            </div>
+            
+            <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+                <!-- Card 1 (Harcama - Mavi) -->
+                <div class="bg-white p-5 rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition-shadow border-b-4" style="border-bottom-color: #5cb0e4;">
+                    <div class="mb-2 brand-text-blue"><i data-lucide="wallet" class="w-6 h-6"></i></div>
+                    <div class="text-sm font-medium text-slate-500 mb-1">Toplam Harcama</div>
+                    <div class="text-2xl font-bold text-slate-800">₺35.982</div>
+                </div>
+                <!-- Card 2 (Erişim - Yeşil) -->
+                <div class="bg-white p-5 rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition-shadow border-b-4" style="border-bottom-color: #8ec545;">
+                    <div class="mb-2 brand-text-green"><i data-lucide="users" class="w-6 h-6"></i></div>
+                    <div class="text-sm font-medium text-slate-500 mb-1">Erişim</div>
+                    <div class="text-2xl font-bold text-slate-800">55.636</div>
+                </div>
+                <!-- Card 3 (Gösterim - Pembe) -->
+                <div class="bg-white p-5 rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition-shadow border-b-4" style="border-bottom-color: #d85687;">
+                    <div class="mb-2 brand-text-pink"><i data-lucide="eye" class="w-6 h-6"></i></div>
+                    <div class="text-sm font-medium text-slate-500 mb-1">Gösterim</div>
+                    <div class="text-2xl font-bold text-slate-800">172.295</div>
+                </div>
+                <!-- Card 4 (Toplam Form - Mor) -->
+                <div class="bg-white p-5 rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition-shadow border-b-4" style="border-bottom-color: #a365aa;">
+                    <div class="mb-2 brand-text-purple"><i data-lucide="clipboard-list" class="w-6 h-6"></i></div>
+                    <div class="text-sm font-medium text-slate-500 mb-1">Toplam Form</div>
+                    <div class="text-2xl font-bold text-slate-800">134</div>
+                </div>
+                <!-- Card 5 (Instagram - Turuncu) -->
+                <div class="bg-white p-5 rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition-shadow border-b-4" style="border-bottom-color: #e69e38;">
+                    <div class="mb-2 brand-text-primary"><i data-lucide="instagram" class="w-6 h-6"></i></div>
+                    <div class="text-sm font-medium text-slate-500 mb-1">Instagram Takip</div>
+                    <div class="text-2xl font-bold text-slate-800">64</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Detaylı Veri Tablosu -->
+        <section class="bg-white rounded-2xl shadow-sm border border-slate-100 overflow-hidden">
+            <div class="overflow-x-auto">
+                <table class="w-full text-sm text-left whitespace-nowrap">
+                    <thead class="text-xs text-slate-700 uppercase bg-slate-50 border-b border-slate-200">
+                        <tr>
+                            <th scope="col" class="px-6 py-4 font-bold border-r border-slate-200">Kampanya Adı</th>
+                            <th scope="col" class="px-6 py-4 font-bold border-r border-slate-200 text-center">Harcanan Tutar</th>
+                            <th scope="col" class="px-6 py-4 font-bold border-r border-slate-200 text-center">Erişim</th>
+                            <th scope="col" class="px-6 py-4 font-bold border-r border-slate-200 text-center">Gösterim</th>
+                            <th scope="col" class="px-6 py-4 font-bold border-r border-slate-200 text-center">Form</th>
+                            <th scope="col" class="px-6 py-4 font-bold border-r border-slate-200 text-center">Instagram Takip</th>
+                            <th scope="col" class="px-6 py-4 font-bold border-r border-slate-200 text-center">Başlangıç Tarihi</th>
+                            <th scope="col" class="px-6 py-4 font-bold text-center">Bitiş Tarihi</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="bg-white border-b border-slate-200 hover:bg-slate-50">
+                            <td class="px-6 py-4 border-r border-slate-200">N8 Kids Academy 7 Nisan - 2 Mayıs 2026</td>
+                            <td class="px-6 py-4 border-r border-slate-200 text-center">₺ 35.982,00</td>
+                            <td class="px-6 py-4 border-r border-slate-200 text-center">55.636</td>
+                            <td class="px-6 py-4 border-r border-slate-200 text-center">172.295</td>
+                            <td class="px-6 py-4 border-r border-slate-200 text-center">134</td>
+                            <td class="px-6 py-4 border-r border-slate-200 text-center">64</td>
+                            <td class="px-6 py-4 border-r border-slate-200 text-center">2026-04-07</td>
+                            <td class="px-6 py-4 text-center">2026-05-02</td>
+                        </tr>
+                        <!-- Genel Toplam Satırı (Turuncu Vurgu) -->
+                        <tr class="brand-primary text-white font-bold text-base">
+                            <td class="px-6 py-4 border-r border-white/20 uppercase tracking-wide">GENEL TOPLAM</td>
+                            <td class="px-6 py-4 border-r border-white/20 text-center">₺ 35.982,00</td>
+                            <td class="px-6 py-4 border-r border-white/20 text-center">55.636</td>
+                            <td class="px-6 py-4 border-r border-white/20 text-center">172.295</td>
+                            <td class="px-6 py-4 border-r border-white/20 text-center">134</td>
+                            <td class="px-6 py-4 border-r border-white/20 text-center">64</td>
+                            <td class="px-6 py-4 border-r border-white/20 text-center"></td>
+                            <td class="px-6 py-4 text-center"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Performans Analizi & İçgörüler -->
+        <section>
+            <div class="flex items-center gap-2 mb-4">
+                <i data-lucide="trending-up" class="w-6 h-6 brand-text-primary"></i>
+                <h2 class="text-xl font-bold brand-text-primary">Performans Analizi</h2>
+            </div>
+            
+            <div class="bg-white rounded-2xl border-l-4 shadow-sm p-6" style="border-left-color: #8ec545;">
+                <div class="flex flex-col md:flex-row gap-6 items-start md:items-center justify-between">
+                    <div class="space-y-2 flex-1">
+                        <h3 class="text-lg font-bold text-slate-800">1. Maliyet Verimliliği</h3>
+                        <div class="inline-flex items-center gap-2 bg-slate-100 px-3 py-1.5 rounded-lg text-sm font-semibold text-slate-700">
+                            <i data-lucide="target" class="w-4 h-4 brand-text-green"></i>
+                            Ortalama form başı maliyet: ~₺268
+                        </div>
+                    </div>
+                    
+                    <div class="flex-1 p-4 rounded-xl border text-sm leading-relaxed" style="background-color: #f4f9ef; border-color: #d2e8b8; color: #4a6b22;">
+                        <p>
+                            <strong>Sektör Karşılaştırması:</strong> Eğitim sektörü için gayet rekabetçi bir rakam. Bu bütçede daha aşağısı genelde ya şans ya da yanlış veri olur. Kampanya bütçe optimizasyonu açısından hedefine ulaşmıştır.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer / Hazırlayan -->
+        <footer class="mt-12 pt-8 border-t border-slate-200 flex flex-col items-center justify-center text-slate-500">
+            <div class="flex items-center gap-2 text-sm">
+                <span>Bu rapor</span>
+                <!-- SALUS MEDYA LOGOSU ALT BİLGİ İÇİN -->
+               <div class="flex items-center gap-2 h-7"> 
+        <img src="images/salus-logo.png" 
+             alt="Salus Medya Logo" 
+             class="h-full w-auto object-contain block" 
+             onerror="this.style.display='none'; document.getElementById('salus-text-top').classList.remove('hidden');">
+        
+        <strong id="salus-text-top" class="tracking-wider font-bold uppercase leading-[0] flex items-center">
+            SALUS MEDYA
+        </strong>
+        <span>tarafından hazırlanmıştır.</span>
+    </div>
+        </footer>
+
+    </div>
+
+    <!-- Initialize Icons -->
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
