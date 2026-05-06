@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>N8 Kids Academy - Meta Reklam Performans Raporu 7 Nian- 2 Mayıs</title>
+    <title>N8 Kids Academy - Meta Reklam Performans Raporu</title>
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Lucide Icons -->
@@ -38,38 +38,24 @@
         <div class="max-w-6xl mx-auto px-4 relative">
             
             <!-- Üst Bar Salus Medya Etiketi -->
-            <!-- Kapsayıcı div: 'items-center' dikeyde, 'justify-center' yatayda ortalar -->
-<div class="md:absolute md:top-0 md:right-0 flex items-center justify-center gap-3 text-xs bg-white/20 border border-white/30 px-4 py-2 rounded-full mb-6 md:mb-0 w-max mx-auto md:mx-0 backdrop-blur-sm">
-    
-    <span class="opacity-90 leading-none">Hazırlayan:</span>
+            <div class="md:absolute md:top-0 md:right-0 flex items-center justify-center gap-2 text-xs bg-white/20 border border-white/30 px-3 py-1.5 rounded-full mb-6 md:mb-0 w-max mx-auto md:mx-0 backdrop-blur-sm">
+                <span class="opacity-90">Hazırlayan:</span>
+                <!-- SALUS MEDYA LOGOSU ÜST BAR İÇİN: Logonuzu 'salus-logo.png' adıyla ana dizine ekleyin -->
+                <img src="images/salus-logo.png" alt="Salus Medya Logo" class="h-6 object-contain" onerror="this.style.display='none'; document.getElementById('salus-text-top').style.display='flex';">
+                <strong id="salus-text-top" class="tracking-wider font-bold flex items-center gap-1">
+                    SALUS MEDYA 
+                </strong>
+            </div>
 
-    <!-- İç kapsayıcıyı daha sıkı kontrol ediyoruz -->
-    <div class="flex items-center gap-2 h-7"> 
-        <img src="images/salus-logo.png" 
-             alt="Salus Medya Logo" 
-             class="h-full w-auto object-contain block" 
-             onerror="this.style.display='none'; document.getElementById('salus-text-top').classList.remove('hidden');">
-        
-        <strong id="salus-text-top" class="tracking-wider font-bold uppercase leading-[0] flex items-center">
-            SALUS MEDYA
-        </strong>
-    </div>
-</div>
             <div class="text-center flex flex-col items-center justify-center">
-    <!-- Logo -->
-   <!-- Kırpılma oluyorsa bu alternatifi kullanın: -->
-<div class="text-center flex flex-col items-center justify-center">
-    <!-- Logo -->
-    <img src="images/no8-kids.jpeg" 
-         alt="N8 Kids Academy Logo" 
-         class="w-24 h-24 mb-4 rounded-full object-cover shadow-lg" 
-         onerror="this.onerror=null; this.src='https://ui-avatars.com/api/?name=N8+Kids&background=fff&color=e69e38&rounded=true&size=150&bold=true';">
-    
-    <h1 class="text-2xl md:text-3xl font-bold tracking-wide uppercase">
-        N8 KİDS ACADEMY 7 NİSAN - 2 MAYIS 2026 REKLAM RAPORU
-    </h1>
-    <p class="mt-2 text-orange-100 font-medium tracking-wider">Meta Reklam Performans Özeti</p>
-</div>
+                <!-- Logo -->
+                <img src="images/no8-kids.jpeg" alt="N8 Kids Academy Logo" class="w-24 h-24 mb-4 rounded-full bg-white p-1 object-contain shadow-lg" onerror="this.onerror=null; this.src='https://ui-avatars.com/api/?name=N8+Kids&background=fff&color=e69e38&rounded=true&size=150&bold=true';">
+                
+                <h1 class="text-2xl md:text-3xl font-bold tracking-wide uppercase">
+                    N8 KİDS ACADEMY 7 NİSAN - 2 MAYIS 2026 REKLAM RAPORU
+                </h1>
+                <p class="mt-2 text-orange-100 font-medium tracking-wider">Meta Reklam Performans Özeti</p>
+            </div>
         </div>
     </div>
 
@@ -203,17 +189,13 @@
             <div class="flex items-center gap-2 text-sm">
                 <span>Bu rapor</span>
                 <!-- SALUS MEDYA LOGOSU ALT BİLGİ İÇİN -->
-               <div class="flex items-center gap-2 h-7"> 
-        <img src="images/salus-logo.png" 
-             alt="Salus Medya Logo" 
-             class="h-full w-auto object-contain block" 
-             onerror="this.style.display='none'; document.getElementById('salus-text-top').classList.remove('hidden');">
-        
-        <strong id="salus-text-top" class="tracking-wider font-bold uppercase leading-[0] flex items-center">
-            SALUS MEDYA
-        </strong>
-        <span>tarafından hazırlanmıştır.</span>
-    </div>
+                <strong class="text-slate-800 font-bold tracking-wide flex items-center gap-2 bg-slate-50 px-3 py-1.5 rounded-lg border border-slate-100">
+                    <img src="images/salus-logo.png" alt="Salus Medya Logo" class="h-6 object-contain" onerror="this.style.display='none'; document.getElementById('salus-icon-footer').style.display='inline-block';">
+                    
+                    SALUS MEDYA
+                </strong>
+                <span>tarafından hazırlanmıştır.</span>
+            </div>
         </footer>
 
     </div>
